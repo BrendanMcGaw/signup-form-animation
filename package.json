@@ -1,0 +1,11 @@
+{
+  "name": "signup-form",
+  "version": "1.0.0",
+  "description": "Sign-up Form practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brendan McGaw",
+  "license": "ISC"
+}

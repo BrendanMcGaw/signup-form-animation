@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Brendan's Signup form </title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <!-- Div covering entire page -->
+  <div class="page-container">
+    <!-- Button to click when you want to sign up to the mailing list. -->
+    <button id="signup-container" type="button" name="button"><span id="signup-text-hide">Join Now!</span></button>
+
+    <div class="signup-details">
+      <!-- Container holding all the input forms for the user to add. -->
+      <form id="signup-form">
+        <div class="form-inputs">
+          <label for="firstName">First Name:</label>
+          <input type="text" name="firstName" value="">
+        </div>
+
+        <div class="form-inputs">
+          <label for="lastName">Last Name:</label>
+          <input type="text" name="lastName" value="">
+        </div>
+
+        <div class="form-inputs">
+          <label for="location">Location:</label>
+          <input type="text" name="location" value="">
+        </div>
+
+        <div class="form-inputs">
+          <label for="email">Email:</label>
+          <input type="text" name="email" value="">
+        </div>
+
+        <div class="form-inputs">
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="text" name="phoneNumber" value="">
+        </div>
+        <button class="submit-button" type="submit" name="submit">Submit</button>
+      </form>
+    </div>
+
+  </div>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
